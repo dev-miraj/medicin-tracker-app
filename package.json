@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "medicine-tracker",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
@@ -15,13 +15,15 @@
     "preset": "jest-expo"
   },
   "dependencies": {
+    "@expo/config-plugins": "~9.0.0",
+    "@expo/prebuild-config": "~8.0.0",
     "@expo/vector-icons": "^14.0.2",
     "@react-native-async-storage/async-storage": "1.23.1",
     "@react-native-community/datetimepicker": "8.2.0",
     "@react-native-picker/picker": "2.9.0",
     "@react-navigation/bottom-tabs": "^7.2.0",
     "@react-navigation/native": "^7.0.14",
-    "expo": "~52.0.28",
+    "expo": "~52.0.35",
     "expo-asset": "^11.0.3",
     "expo-blur": "~14.0.3",
     "expo-constants": "~17.0.5",

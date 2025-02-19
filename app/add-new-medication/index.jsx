@@ -1,7 +1,7 @@
 import { View, Text, ScrollView } from 'react-native'
 import React from 'react'
-import AddMedicationHeader from '../../app-example/components/AddMedicationHeader'
-import AddMedicationForm from '../../app-example/components/AddMedicationForm'
+import AddMedicationHeader from '../../components/AddMedicationHeader'
+import AddMedicationForm from '../../components/AddMedicationForm'
 
 export default function AddNewMedication() {
   return (
